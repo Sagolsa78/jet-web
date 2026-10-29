@@ -1,0 +1,183 @@
+@import "tailwindcss" source(none);
+@source "../";
+
+:root {
+  --background: #fef9ef;
+  --foreground: #1d1c16;
+}
+
+@theme inline {
+  /* ── Core Brand Palette ── */
+  --color-brand-navy: #0B233F;
+  --color-brand-teal: #078E9B;
+  --color-brand-sand: #F7F2E8;
+  --color-brand-coral: #F47C5C;
+
+  /* ── Extended Material Design 3 Semantics ── */
+  --color-primary: #000d20;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #0b233f;
+  --color-on-primary-container: #768bac;
+  --color-secondary: #006973;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #89effd;
+  --color-on-secondary-container: #006d78;
+  --color-tertiary: #210300;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #480c00;
+  --color-on-tertiary-container: #da684a;
+  --color-tertiary-fixed-dim: #ffb4a1;
+  --color-surface: #fef9ef;
+  --color-on-surface: #1d1c16;
+  --color-on-surface-variant: #44474d;
+  --color-surface-dim: #dedad0;
+  --color-surface-bright: #fef9ef;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f3e9;
+  --color-surface-container: #f2ede3;
+  --color-surface-container-high: #ece8de;
+  --color-surface-container-highest: #e7e2d8;
+  --color-outline: #74777e;
+  --color-outline-variant: #c4c6ce;
+  --color-inverse-surface: #32302a;
+  --color-inverse-on-surface: #f5f0e6;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* ── Fallbacks ── */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* ── Typography ── */
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ── Custom Keyframes ── */
+@keyframes slow-zoom {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 25s infinite alternate ease-in-out;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out both;
+}
+
+/* ── Base Styles ── */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* ── Material Icons ── */
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.home-escape-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: repeat(2, minmax(180px, 220px));
+  gap: 1rem;
+}
+
+.home-escape-card {
+  min-height: 180px;
+}
+
+.home-escape-card--featured {
+  grid-row: span 2;
+}
+
+@media (max-width: 639px) {
+  .home-escape-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .home-escape-card {
+    width: calc(50% - 0.375rem);
+    min-height: 180px;
+  }
+
+  .home-escape-card--featured {
+    width: 100%;
+    min-height: 220px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Print Styles for Editorial Moodboards ── */
+@media print {
+  header,
+  footer,
+  aside.sticky,
+  .no-print,
+  [data-no-print] {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #0b233f !important;
+    font-size: 11pt !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

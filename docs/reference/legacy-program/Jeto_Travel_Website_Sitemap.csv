@@ -1,0 +1,17 @@
+Route,Page,Audience,Primary CTA,Data Source,SEO Priority,Launch Phase
+/,Homepage,Public,Search or Plan My Trip,Published destinations/packages and marketing content,P0,Website MVP
+/holidays,Package listing,Public,View package or Request quote,Published packages and search filters,P0,Website MVP
+/holidays/[slug],Package detail,Public,Request a quote,Published package and itinerary, P0,Website MVP
+/destinations,Destination directory,Public,Explore destination,Published destinations,P1,Website MVP
+/destinations/[slug],Destination landing,Public,Explore packages or Plan custom trip,Destination content and published package associations,P1,Website MVP
+/themes/[slug],Theme collection,Public,Browse holidays,Published packages by theme,P1,Website MVP
+/custom-holiday,Custom enquiry wizard,Public,Send trip brief,Public enquiry API,P0,Website MVP
+/travel-guides/[slug],Editorial guide,Public,View related package,Approved guide content and package references,P2,Phase 2
+/about,About Jeto,Public,Talk to an expert,Approved company content,P1,Website MVP
+/reviews,Traveller stories,Public,Plan my trip,Verified approved reviews only,P1,Website MVP
+/contact,Contact,Public,Call / WhatsApp / enquiry,Approved contact config,P0,Website MVP
+/track-enquiry,Enquiry status (optional),Customer,View status,Verified customer identity and scoped records,P3,Later
+/privacy,Privacy policy,Public,Review policy,Legal-approved content,P0,Website MVP
+/terms,Terms,Public,Review terms,Legal-approved content,P0,Website MVP
+/cancellation-policy,Cancellation policy,Public,Review policy,Legal-approved content,P0,Website MVP
+/cookies,Cookies/privacy controls,Public,Set preferences,Consent manager config,P1,Website MVP

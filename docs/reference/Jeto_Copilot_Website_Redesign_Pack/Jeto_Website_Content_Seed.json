@@ -1,0 +1,425 @@
+{
+  "brand": {
+    "name": "Jeto Vacations",
+    "tagline": "No Tension, Only Vacation",
+    "phone": "8882579628",
+    "email": "support@jetovacations.com",
+    "gstin": "07AAECJ6467D1ZI"
+  },
+  "destinations": {
+    "international": [
+      "Thailand",
+      "Bali",
+      "Singapore",
+      "Vietnam",
+      "Malaysia",
+      "Dubai",
+      "Maldives",
+      "Mauritius",
+      "Sri Lanka",
+      "Turkey",
+      "Hong Kong",
+      "Philippines",
+      "Azerbaijan",
+      "Kazakhstan",
+      "Georgia"
+    ],
+    "domestic": [
+      "Kerala",
+      "Goa",
+      "Rajasthan",
+      "Himachal",
+      "Andaman",
+      "Kashmir",
+      "Sikkim-Darjeeling",
+      "Meghalaya",
+      "Ladakh",
+      "Uttarakhand"
+    ],
+    "regional": [
+      "North-East"
+    ]
+  },
+  "servicePromises": [
+    {
+      "title": "Right Guidance",
+      "summary": "Travel experts help travellers make decisions and shape an itinerary.",
+      "needsOwnerApprovalForGuarantees": true
+    },
+    {
+      "title": "Right Price",
+      "summary": "Transparent pricing and value benchmarking.",
+      "needsOwnerApprovalForGuarantees": true
+    },
+    {
+      "title": "Right Services",
+      "summary": "Support with visa paperwork and on-ground issues.",
+      "needsOwnerApprovalForGuarantees": true
+    }
+  ],
+  "tripPlanningProcess": [
+    "Understand Your Needs",
+    "Expert Customization",
+    "Seamless Execution",
+    "On-Ground Care"
+  ],
+  "homepagePromotionsToVerify": {
+    "international": {
+      "Thailand": 20,
+      "Bali": 15,
+      "Singapore": 18,
+      "Vietnam": 22,
+      "Malaysia": 12,
+      "Dubai": 25,
+      "Maldives": 10,
+      "Mauritius": 17,
+      "Sri Lanka": 20,
+      "Turkey": 15,
+      "Hong Kong": 10,
+      "Philippines": 18,
+      "Azerbaijan": 20,
+      "Kazakhstan": 22,
+      "Georgia": 20
+    },
+    "domestic": {
+      "Kerala": 15,
+      "Goa": 20,
+      "Rajasthan": 18,
+      "Himachal": 12,
+      "Andaman": 22,
+      "Kashmir": 20,
+      "Sikkim-Darjeeling": 15,
+      "Meghalaya": 18,
+      "Ladakh": 10,
+      "Uttarakhand": 20
+    },
+    "publishedByDefault": false,
+    "note": "Captured from the live homepage; campaign currency, validity and terms must be verified before display."
+  },
+  "quoteFormFields": [
+    {
+      "name": "destination",
+      "required": true
+    },
+    {
+      "name": "approximateTravelDate",
+      "required": true
+    },
+    {
+      "name": "adults12Plus",
+      "required": true
+    },
+    {
+      "name": "children3to11",
+      "required": false
+    },
+    {
+      "name": "name",
+      "required": true
+    },
+    {
+      "name": "email",
+      "required": true
+    },
+    {
+      "name": "mobile",
+      "required": true,
+      "confirmWithOwner": true
+    },
+    {
+      "name": "whatsappOnly",
+      "required": false
+    },
+    {
+      "name": "tripPlanningStatus",
+      "required": true,
+      "optionsProposedNotVerified": true
+    },
+    {
+      "name": "bookingTimeline",
+      "required": true,
+      "optionsProposedNotVerified": true
+    },
+    {
+      "name": "otherCompanyQuotes",
+      "required": false
+    },
+    {
+      "name": "referralCode",
+      "required": false
+    },
+    {
+      "name": "additionalDetails",
+      "required": false
+    },
+    {
+      "name": "referredBySomeone",
+      "required": false
+    },
+    {
+      "name": "termsConsent",
+      "required": true
+    }
+  ],
+  "samplePackages": [
+    {
+      "slug": "thailand-phuket-3n-4d",
+      "name": "Thailand 1",
+      "destination": "Thailand",
+      "nights": 3,
+      "days": 4,
+      "stay": "3 nights Phuket",
+      "hotel": "3-star hotel",
+      "meals": [
+        "3 breakfasts",
+        "1 lunch"
+      ],
+      "inclusions": [
+        "Half-day Phuket city tour",
+        "Phi Phi Island tour by shared big boat with lunch (island fees excluded)",
+        "Two-way airport transfer"
+      ],
+      "logistics": "Tours on sharing basis; airport transfers on private basis",
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 8999,
+          "max": 11999
+        },
+        "withFlights": {
+          "min": 39999,
+          "max": 41999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/thailand",
+      "published": false
+    },
+    {
+      "slug": "thailand-pattaya-bangkok-4n-5d",
+      "name": "Thailand 2",
+      "destination": "Thailand",
+      "nights": 4,
+      "days": 5,
+      "stay": "2 nights Pattaya + 2 nights Bangkok",
+      "hotel": "3-star hotel",
+      "meals": [
+        "4 breakfasts",
+        "2 lunches"
+      ],
+      "inclusions": [
+        "Coral Island tour with lunch",
+        "Pattaya-to-Bangkok transfer and Bangkok city tour",
+        "Safari World and Marine Park with lunch",
+        "Two-way airport transfer"
+      ],
+      "logistics": "Tours on sharing basis; airport transfers on private basis",
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 15999,
+          "max": 19999
+        },
+        "withFlights": {
+          "min": 40999,
+          "max": 44999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/thailand",
+      "published": false
+    },
+    {
+      "slug": "thailand-bangkok-3n-4d",
+      "name": "Thailand 3",
+      "destination": "Thailand",
+      "nights": 3,
+      "days": 4,
+      "stay": "3 nights Bangkok",
+      "hotel": "3-star hotel",
+      "meals": [
+        "3 breakfasts",
+        "1 lunch",
+        "1 dinner"
+      ],
+      "inclusions": [
+        "Chao Phraya dinner cruise",
+        "Safari World & Marine Park",
+        "Two-way airport transfer"
+      ],
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 12999,
+          "max": 15999
+        },
+        "withFlights": {
+          "min": 37999,
+          "max": 40999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/thailand",
+      "published": false
+    },
+    {
+      "slug": "thailand-krabi-phuket-4n-5d",
+      "name": "Thailand 4",
+      "destination": "Thailand",
+      "nights": 4,
+      "days": 5,
+      "stay": "2 nights Krabi + 2 nights Phuket",
+      "hotel": "3-star hotel",
+      "meals": [
+        "4 breakfasts",
+        "2 lunches"
+      ],
+      "inclusions": [
+        "Krabi 4 Island tour with lunch by shared long-tail boat (island fees excluded)",
+        "Krabi-to-Phuket transfer",
+        "Phi Phi Island tour by shared big boat with lunch (island fees excluded)",
+        "Two-way airport transfer"
+      ],
+      "logistics": "Tours on sharing basis; airport transfers on private basis",
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 14999,
+          "max": 17999
+        },
+        "withFlights": {
+          "min": 44999,
+          "max": 47999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/thailand",
+      "published": false
+    },
+    {
+      "slug": "thailand-krabi-phuket-5n-6d",
+      "name": "Thailand 5",
+      "destination": "Thailand",
+      "nights": 5,
+      "days": 6,
+      "stay": "2 nights Krabi + 3 nights Phuket",
+      "hotel": "4-star hotel",
+      "meals": [
+        "5 breakfasts",
+        "2 lunches"
+      ],
+      "inclusions": [
+        "Krabi 4 Island tour with lunch",
+        "Krabi-to-Phuket private transfer and half-day Phuket city tour",
+        "Phi Phi Island tour with lunch",
+        "Tiger Kingdom",
+        "Two-way airport transfer"
+      ],
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 22999,
+          "max": 26999
+        },
+        "withFlights": {
+          "min": 52999,
+          "max": 56999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/thailand",
+      "published": false
+    },
+    {
+      "slug": "maldives-maafushi-3n-4d-1",
+      "name": "Maldives 1",
+      "destination": "Maldives",
+      "nights": 3,
+      "days": 4,
+      "stay": "3 nights Maafushi Island",
+      "hotel": "3/4-star resort",
+      "meals": [
+        "3 breakfasts",
+        "3 dinners"
+      ],
+      "inclusions": [
+        "Shared transfers",
+        "Half-board basis",
+        "24/7 concierge (source claim; verify)"
+      ],
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 32999,
+          "max": 36499
+        },
+        "withFlights": {
+          "min": 57999,
+          "max": 61999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/maldives",
+      "published": false
+    },
+    {
+      "slug": "maldives-maafushi-3n-4d-2",
+      "name": "Maldives 2",
+      "destination": "Maldives",
+      "nights": 3,
+      "days": 4,
+      "stay": "3 nights Maafushi Island",
+      "hotel": "3/4-star hotel",
+      "meals": [
+        "3 breakfasts",
+        "2 lunches",
+        "3 dinners"
+      ],
+      "inclusions": [
+        "Shared transfers",
+        "Full-board basis",
+        "24/7 concierge (source claim; verify)"
+      ],
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 38999,
+          "max": 42499
+        },
+        "withFlights": {
+          "min": 63499,
+          "max": 67999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/maldives",
+      "published": false
+    },
+    {
+      "slug": "maldives-maafushi-4n-5d",
+      "name": "Maldives 3",
+      "destination": "Maldives",
+      "nights": 4,
+      "days": 5,
+      "stay": "4 nights Maafushi Island",
+      "hotel": "3/4-star hotel",
+      "meals": [
+        "4 breakfasts",
+        "4 dinners"
+      ],
+      "inclusions": [
+        "Shared transfers",
+        "Half-board basis",
+        "24/7 concierge (source claim; verify)"
+      ],
+      "priceINRPerPerson": {
+        "withoutFlights": {
+          "min": 41999,
+          "max": 45999
+        },
+        "withFlights": {
+          "min": 66999,
+          "max": 70999
+        }
+      },
+      "source": "https://www.jetovacations.com/new/maldives",
+      "published": false
+    }
+  ],
+  "claimsToVerifyBeforeDisplay": [
+    "Promotional discount percentages",
+    "live booking counter",
+    "4.8/5 Google rating",
+    "2000+ reviews",
+    "100000+ vacationers",
+    "testimonials",
+    "24/7 support statements",
+    "current package prices/availability"
+  ]
+}

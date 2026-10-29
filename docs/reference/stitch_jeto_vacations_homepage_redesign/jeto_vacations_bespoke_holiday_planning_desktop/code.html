@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"error-container":"#ffdad6","surface-dim":"#dedad0","tertiary-container":"#480c00","on-secondary-container":"#006d78","tertiary-fixed-dim":"#ffb4a1","secondary-container":"#89effd","on-tertiary-fixed-variant":"#82280e","on-secondary":"#ffffff","secondary-fixed":"#90f1ff","on-background":"#1d1c16","on-error":"#ffffff","background":"#fef9ef","inverse-on-surface":"#f5f0e6","on-secondary-fixed-variant":"#004f57","on-primary-fixed":"#031c38","error":"#ba1a1a","on-primary":"#ffffff","on-secondary-fixed":"#001f23","on-tertiary":"#ffffff","on-surface-variant":"#44474d","secondary-fixed-dim":"#6ed5e3","surface-container-low":"#f8f3e9","surface-container-highest":"#e7e2d8","primary":"#000d20","tertiary":"#210300","outline":"#74777e","inverse-surface":"#32302a","on-tertiary-fixed":"#3c0800","tertiary-fixed":"#ffdbd1","on-surface":"#1d1c16","surface-container":"#f2ede3","surface-variant":"#e7e2d8","surface-container-high":"#ece8de","primary-container":"#0b233f","surface-container-lowest":"#ffffff","on-primary-fixed-variant":"#334866","primary-fixed-dim":"#b2c8ec","surface":"#fef9ef","outline-variant":"#c4c6ce","inverse-primary":"#b2c8ec","secondary":"#006973","on-primary-container":"#768bac","primary-fixed":"#d4e3ff","on-error-container":"#93000a","surface-bright":"#fef9ef","on-tertiary-container":"#da684a","surface-tint":"#4b5f7f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-md":"1rem","margin-mobile":"1.25rem","space-lg":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","space-xl":"2.5rem","gutter-mobile":"1rem","gutter":"1.5rem","margin":"4rem"},"fontFamily":{"headline-lg":["Playfair Display"],"headline-sm":["Playfair Display"],"headline-md":["Playfair Display"],"body-sm":["Inter"],"display-lg":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"label-md":["Inter"],"body-md":["Inter"],"label-eyebrow":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"]},"fontSize":{"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"36px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-eyebrow":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary-container text-surface-container-low px-8 py-2 flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-sm text-secondary-container">auto_awesome</span><span>Handcrafted holidays planned by real consultants</span></div><div class="flex items-center gap-4"><span>+91 98765 43210 • WhatsApp us anytime</span><span class="h-2 w-2 rounded-full bg-secondary-container"></span></div></div><div class="h-20 bg-surface-container-lowest/90 backdrop-blur-md px-10 flex items-center justify-between border-b border-outline-variant/30"><div class="flex items-center gap-3"><img alt="Jeto Vacations Brandmark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UEuYTJe5iDSTJpdEXLc5rCOvdgapfXOZ-HkXSKiUWIkNInAhVS7Bm36gOvJTMwimZKWM0c-n7SECev81oks6Hx6de--THF_yWF6KVLU3euNZhD-6q7iwNMTECiemhbT2lRB3eB1N5eAHSshUwEqLhjJNluYN8GIcCGC5TOKeuFiXSmEPgb4tzle-OsZ1pSJ4-g57d47YK8O9j-Z7WXP24BnLXjbhgDb0o_YcBcb9-gGKtTQoniNEoPPj4j"/><span class="font-headline-sm text-headline-sm tracking-tight text-primary">Jeto Vacations</span></div><nav class="hidden xl:flex items-center gap-7" data-active-classes="text-secondary font-semibold"><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="holidays" href="#">Holidays</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="destinations" href="#">Destinations</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="experiences" href="#">Experiences</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="honeymoon" href="#">Honeymoon</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="family" href="#">Family</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="travel-guides" href="#">Travel Guides</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-4"><a class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary font-label-md text-label-md shadow-sm transition-all" data-path="plan-my-trip" href="#"><span>Plan My Trip</span><span class="material-symbols-outlined text-sm">arrow_forward</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-primary -mt-28">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transform scale-105" data-alt="Cinematic aerial golden-hour photography of dramatic coastal cliffs meeting a tranquil turquoise ocean bay, with distant mist-veiled mountain peaks, bathed in radiant warm amber sunset light, editorial travel style, high resolution" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1tQG_6__FTekUeEorg9dKd3b1n4w9Ut5l8F58837NJkk9uf6et9ivnwWUNNGAU1ZLt5wLsVYvkEBpz8Y6qnFrLtwIJodqTvRIv94ySzL3awL7pQ_lg9JZi547z_Yl5CwYWG9kF9Wfmp9gdqK1BzeVBJGsf1wavGW5PkR62wQieIxHoyGrcssJ4aq1Atz8m_QVo6odfQYNXq6AQy5D2wxUqda8vpUQJs6Y6qxXZy5VTis-b62RfYD0-A')"></div>
+<!-- Deep editorial navy gradient overlay -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container via-primary-container/85 to-primary-container/20 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container/90 via-transparent to-transparent"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 pt-44 pb-32">
+<div class="max-w-2xl text-on-primary">
+<div class="font-label-eyebrow text-label-eyebrow text-secondary-container tracking-[0.2em] mb-4 flex items-center gap-2">
+<span>✦</span>
+<span>BESPOKE INDIAN &amp; INTERNATIONAL ITINERARIES</span>
+</div>
+<h1 class="font-display-lg text-display-lg lg:text-[62px] lg:leading-[1.12] text-on-primary mb-6">
+          The trip you've been
+          <span class="italic text-on-tertiary-container font-normal">dreaming of</span>,
+          designed around you.
+        </h1>
+<p class="font-body-lg text-body-lg text-surface-container-low/90 font-light mb-8 max-w-xl">
+          Thoughtfully crafted journeys with private transfers, hand-picked boutique stays, and
+          dedicated trip designers who understand how Indian families and couples truly travel.
+        </p>
+<!-- 3 Trust Points -->
+<div class="flex flex-wrap items-center gap-y-3 gap-x-6 text-surface-container-low font-body-sm text-body-sm pt-2">
+<div class="flex items-center gap-2">
+<span class="h-2 w-2 rounded-full bg-on-tertiary-container inline-block"></span>
+<span>Personalised itineraries</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="h-2 w-2 rounded-full bg-on-tertiary-container inline-block"></span>
+<span>Transparent inclusions</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="h-2 w-2 rounded-full bg-on-tertiary-container inline-block"></span>
+<span>One consultant start to finish</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SEARCH CARD (Overlapping Hero bottom) -->
+<section class="relative z-20 max-w-6xl w-full mx-auto px-6 -mt-16 mb-20">
+<div class="bg-surface-container-lowest rounded-2xl shadow-[0_20px_50px_rgba(11,35,63,0.12)] p-6 sm:p-8">
+<!-- Tabs Row -->
+<div class="flex items-center gap-8 pb-5 border-b border-surface-container-high font-label-md text-label-md">
+<button class="relative text-primary font-semibold pb-2 border-b-2 border-secondary flex items-center gap-1.5 focus:outline-none" type="button">
+<span class="material-symbols-outlined text-secondary text-sm">travel_explore</span>
+<span>Find a holiday</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors pb-2 flex items-center gap-1.5 focus:outline-none" type="button">
+<span class="material-symbols-outlined text-sm">edit_calendar</span>
+<span>Custom trip</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors pb-2 flex items-center gap-1.5 focus:outline-none" type="button">
+<span class="material-symbols-outlined text-sm">favorite</span>
+<span>Honeymoon</span>
+</button>
+</div>
+<!-- Fields Row -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3.5 items-end pt-5">
+<!-- 1. Destination -->
+<div class="lg:col-span-1">
+<label class="block font-label-eyebrow text-label-eyebrow text-on-surface-variant mb-1.5 uppercase">
+            Destination
+          </label>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<span class="material-symbols-outlined text-secondary text-lg mr-2">location_on</span>
+<input class="w-full bg-transparent text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none" placeholder="e.g. Kashmir, Bali" type="text"/>
+</div>
+</div>
+<!-- 2. Departing From -->
+<div class="lg:col-span-1">
+<label class="block font-label-eyebrow text-label-eyebrow text-on-surface-variant mb-1.5 uppercase">
+            Departing From
+          </label>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<span class="material-symbols-outlined text-secondary text-lg mr-2">flight_takeoff</span>
+<select class="w-full bg-transparent text-on-surface font-body-sm text-body-sm focus:outline-none cursor-pointer">
+<option>Mumbai</option>
+<option>Delhi</option>
+<option>Bengaluru</option>
+<option>Chennai</option>
+<option>Hyderabad</option>
+<option>Kolkata</option>
+</select>
+</div>
+</div>
+<!-- 3. Month of Travel -->
+<div class="lg:col-span-1">
+<label class="block font-label-eyebrow text-label-eyebrow text-on-surface-variant mb-1.5 uppercase">
+            Month of Travel
+          </label>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<span class="material-symbols-outlined text-secondary text-lg mr-2">calendar_month</span>
+<select class="w-full bg-transparent text-on-surface font-body-sm text-body-sm focus:outline-none cursor-pointer">
+<option>Oct 2025</option>
+<option>Nov 2025</option>
+<option>Dec 2025</option>
+<option>Jan 2026</option>
+<option>Summer 2026</option>
+</select>
+</div>
+</div>
+<!-- 4. Travellers -->
+<div class="lg:col-span-1">
+<label class="block font-label-eyebrow text-label-eyebrow text-on-surface-variant mb-1.5 uppercase">
+            Travellers
+          </label>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<span class="material-symbols-outlined text-secondary text-lg mr-2">group</span>
+<select class="w-full bg-transparent text-on-surface font-body-sm text-body-sm focus:outline-none cursor-pointer">
+<option>2 Adults</option>
+<option>Family (2+1)</option>
+<option>Family (2+2)</option>
+<option>Small Group (4-6)</option>
+</select>
+</div>
+</div>
+<!-- 5. Budget -->
+<div class="lg:col-span-1">
+<label class="block font-label-eyebrow text-label-eyebrow text-on-surface-variant mb-1.5 uppercase">
+            Budget / Person
+          </label>
+<div class="relative flex items-center bg-surface-container-low rounded-xl px-3 py-2.5">
+<span class="material-symbols-outlined text-secondary text-lg mr-2">currency_rupee</span>
+<select class="w-full bg-transparent text-on-surface font-body-sm text-body-sm focus:outline-none cursor-pointer">
+<option>Any Budget</option>
+<option>₹50k - ₹1 Lakh</option>
+<option>₹1 Lakh - ₹2.5 Lakh</option>
+<option>Luxury ₹2.5 Lakh+</option>
+</select>
+</div>
+</div>
+<!-- 6. Coral Button -->
+<div class="lg:col-span-1">
+<button class="w-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary font-label-md text-label-md rounded-xl py-3 px-4 flex items-center justify-center gap-2 shadow-sm transition-all" type="button">
+<span>Search</span>
+<span class="material-symbols-outlined text-sm">search</span>
+</button>
+</div>
+</div>
+<div class="pt-4 text-center sm:text-left">
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Not sure where to go?
+          <a class="text-secondary font-semibold hover:underline inline-flex items-center gap-1" href="#">
+<span>Let our specialists suggest destinations</span>
+<span class="material-symbols-outlined text-xs">arrow_forward</span>
+</a>
+</p>
+</div>
+</div>
+</section>
+<!-- POPULAR DESTINATIONS (Asymmetric Mosaic) -->
+<section class="max-w-7xl w-full mx-auto px-6 sm:px-10 lg:px-12 py-12">
+<div class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div>
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+          Handpicked Wanderlust
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+          Popular Escapes for This Season
+        </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        From serene backwaters to dramatic volcanic calderas, curated by our regional destination specialists.
+      </p>
+</div>
+<!-- Asymmetric Mosaic Grid (Desktop 4 cols, 2 rows) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 h-auto lg:h-[580px]">
+<!-- Large 2x2 Feature Tile: Bali -->
+<div class="lg:row-span-2 lg:col-span-2 rounded-2xl overflow-hidden relative group shadow-md min-h-[300px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Stunning aerial view of Bali cliffside infinity pool overlooking dramatic ocean sunset waves, lush tropical palm greenery, warm golden mist, luxury travel vibe" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB8a5MT47kpkQ8RcJNzsri_S7L_GOiKWtXOVkCUhIhSf1syhK3UvmuCj9yzR7GfOsjY3aWTIdU1QrWAwg1j4tW_YYFhj6BCjEwsvncsqy4Uq9_vytaH-o8VVcpLtELrChHdC95kidUOTMUpx4wW0BShorQO6I59X9Tp9Un4d4A_0gcYjkji0wknj5r0K5MwQY78moVLfVax20GMCuPeOWbMzXZgjxxEoMMrSbCf-FR4xkcRsRA3Ajly_A')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent"></div>
+<div class="absolute top-4 left-4 z-10">
+<span class="px-3 py-1 rounded-full bg-secondary text-on-secondary font-label-eyebrow text-label-eyebrow uppercase">
+            International
+          </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 z-10 text-on-primary">
+<h3 class="font-headline-md text-headline-md text-on-primary mb-2">
+            Bali &amp; Nusa Islands
+          </h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/90 line-clamp-2">
+            Clifftop private villas in Uluwatu, sunrise above Ubud's rice terraces, and bespoke driver services for hassle-free island hops.
+          </p>
+</div>
+</div>
+<!-- Tile 2: Kashmir -->
+<div class="rounded-2xl relative overflow-hidden group shadow-md min-h-[240px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Traditional ornate wooden houseboat floating on the calm reflective waters of Dal Lake in Kashmir, framed by blooming lotus pads and misty snow-capped Himalayan peaks" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHyS_WgBAaTy5gt5jTOVOB6uKg873bCOFawfZJJKdHudq1u9aYSq3JQS_jfKu69opuwfZD9eqjE0PdTyuM8TSHvXXE4pPtclR5HZchoTMuU-EfPzcrmJpSCHtwqJYJjpym-X_PF-BFsg6iWa9iVPByoZEDoUVSooBIBWFS-UcE-wL0sY6SDi5Cpb8zOQLYDGm496IFJRyQiA80i9j5aBMSVoNJFgjo3HbPkLwxuHX0kr1K81f7W7dBZQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-eyebrow text-label-eyebrow uppercase">
+            Domestic
+          </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 z-10 text-on-primary">
+<h3 class="font-headline-sm text-headline-sm text-on-primary mb-1">Kashmir Valley</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/85 line-clamp-1">
+            Pristine houseboats on Dal Lake and pine-draped slopes of Gulmarg.
+          </p>
+</div>
+</div>
+<!-- Tile 3: Dubai -->
+<div class="rounded-2xl relative overflow-hidden group shadow-md min-h-[240px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Cinematic luxury desert safari camp in Dubai with ambient Arabic lanterns, golden rolling sand dunes under twilight violet and amber sky" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCURGmncsoUyrNg2PjfYtkBqAtwxGn1ElBYjDosNrwM4U9QZ5p9Rse7lbV05GHSf5iO1Y-rnEe0ZladCWc17r7g6PlZWCwuQL-gDrS4VhcS0ZXXNQ7oM1ORk4vGoHAVMKRlVVU-_Q9cKHmuz7NbaEWp6zPhy6JNMA0jv4DHo06LN4YVdkcc787sKvvEFTSw2UClfIrLOFZJQseIf4dMFk4nEPdJxw-YROl4pmnEa8DBHNXnauyM4UQHOQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-eyebrow text-label-eyebrow uppercase">
+            International
+          </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 z-10 text-on-primary">
+<h3 class="font-headline-sm text-headline-sm text-on-primary mb-1">Dubai &amp; Dunes</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/85 line-clamp-1">
+            Ultra-modern skyscrapers paired with serene sunset desert retreats.
+          </p>
+</div>
+</div>
+<!-- Tile 4: Maldives (wide tile) -->
+<div class="lg:col-span-2 rounded-2xl relative overflow-hidden group shadow-md min-h-[240px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Luxury Maldives overwater bungalows with private infinity sundecks linked by wooden boardwalks across crystal-clear shallow turquoise lagoon waters" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvBsE3eO2SXZfHfw0QE3WB_rozSOAEtzSqFR_aJN9sn_ZKxd_S9cU2VNqrARoMjk27GsTvopQg0u_A0S-jw7SJ0CGVoRznuOVEHF6LmoiVdhBZniEM91dHbEvPFOqgzDHdBl8QiowGftkvVDEr_eB-r3_LUUxz96l05I8U8m1AXGiF4nPXGuCO855um5r470mtDHV_hTtZsEw7CVIhdOAjyUxG1ucaqdJRXQCt0pE83v9Q2G53ZOEQpw')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-eyebrow text-label-eyebrow uppercase">
+            International
+          </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 z-10 text-on-primary">
+<h3 class="font-headline-sm text-headline-sm text-on-primary mb-1">Maldives Atolls</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/85 line-clamp-1">
+            Overwater private villas with seaplane arrival and custom Jain &amp; Pure Veg culinary arrangements.
+          </p>
+</div>
+</div>
+<!-- Tile 5: Kerala -->
+<div class="rounded-2xl relative overflow-hidden group shadow-md min-h-[240px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Scenic Kerala backwaters traditional kettuvallam wooden houseboat gliding slowly through emerald palm tree canals during morning golden hour" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBpDmKaxJwApY9zFKFrJ1loZhRsjKVxokLv_3u-_497BJZEgJiO6Rb_7XahkGTSQM_LKebctC5DMx3rBnOqc6SjYq_1pfFiDV5ZWCCY4eJz_U4M10cQ7El1xFpbVfiuxe3J7lg6ydeSAzMSiVvYLOutMjGoIkfQ_iu0-35lWSf0HBgdFxyrjDmwxv0f70RlswwVkhwgQMYkbvA8LJZNGzgooARYnYjOuMwOCyXjKum5itlGxagD9SJGUA')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-eyebrow text-label-eyebrow uppercase">
+            Domestic
+          </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 z-10 text-on-primary">
+<h3 class="font-headline-sm text-headline-sm text-on-primary mb-1">Kerala Backwaters</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/85 line-clamp-1">
+            Slow-paced luxury houseboat cruises and misty Munnar tea hills.
+          </p>
+</div>
+</div>
+<!-- Tile 6: Goa -->
+<div class="rounded-2xl relative overflow-hidden group shadow-md min-h-[240px] lg:min-h-0">
+<div class="bg-cover bg-center absolute inset-0 w-full h-full transition-transform duration-700 group-hover:scale-105" data-alt="Historic Portuguese colonial heritage villa in South Goa surrounded by tropical bougainvillea blossoms, vintage verandas, and quiet coastal charm" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD8mxHpHiUwdQAnLDnFl_V2PR6RFAqHO6BPipRYEIPMwEK3jw0XHnjGOOg1G6kZ2ip1xnrga5BfFFROJdNcIBvQos224Q9TytPAZ1iRS8Sbb2Fl3r9JPCqrGbYKQmZkpuA77b8s87Ob0l2hs9p3_A6vWSQEiCxfEa7tQeRvDhQT5epWHrCODapycrLQi09OBRmALfZ3TMyZ-FRiiUFs3HcbqEpcAM1PMYGy9ZCwTuClqrS1b-AO892e8g')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent"></div>
+<div class="absolute top-3 left-3 z-10">
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-eyebrow text-label-eyebrow uppercase">
+            Domestic
+          </span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 z-10 text-on-primary">
+<h3 class="font-headline-sm text-headline-sm text-on-primary mb-1">South Goa Heritage</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low/85 line-clamp-1">
+            Secluded heritage Portuguese estates and private sunset catamaran charters.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CURATED PACKAGES ON A WARM SAND BACKGROUND -->
+<section class="w-full bg-surface-container py-20 px-6 sm:px-10 lg:px-12 my-10">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-10">
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+          Signature Itineraries
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-3">
+          Curated Holiday Packages
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Every itinerary is an adaptable blueprint tailored to your family's pace, preferences, and dietary requirements.
+        </p>
+</div>
+<!-- Filter Chips Row -->
+<div class="flex items-center justify-center gap-2.5 mb-12 flex-wrap">
+<button class="bg-primary text-on-primary font-label-md text-label-md rounded-full px-5 py-2 shadow-sm transition-all" type="button">
+          All Packages
+        </button>
+<button class="bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md rounded-full px-5 py-2 transition-all shadow-sm" type="button">
+          Honeymoon
+        </button>
+<button class="bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md rounded-full px-5 py-2 transition-all shadow-sm" type="button">
+          Family
+        </button>
+<button class="bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md rounded-full px-5 py-2 transition-all shadow-sm" type="button">
+          Adventure
+        </button>
+<button class="bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md rounded-full px-5 py-2 transition-all shadow-sm" type="button">
+          Luxury
+        </button>
+<button class="bg-surface-container-lowest text-on-surface hover:bg-surface-container-high font-label-md text-label-md rounded-full px-5 py-2 transition-all shadow-sm" type="button">
+          Weekend Escapes
+        </button>
+</div>
+<!-- 6 Package Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1: Vietnam -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Limestone karsts rising from tranquil emerald green waters of Halong Bay Vietnam with a traditional wooden junk boat sailing at dawn" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDv5ZBHcZOAjmzmGSiUQBOoOJKmwyANvPfpcvQDbJRN_mpNdQB1GfH4ZymVOztDuqgoasOp4LNdLQCpniEw233ONpernOj6Mtk05PMZybbvPr4Ejr9KqPsvHcsIh7Du3M5rzB4cIzjpExFjuRecXYDpd2lgje9Y0K_yZsK6dHBZU5fA_zguGxjRcQ-mv8OuOFnT-uAXFJFVlZFw2PGy1S9PtUjTjL1-_EB14pzIKodNh5y-E8EVfRIZcg')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              6N / 7D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>International</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                Vietnam &amp; Halong Cruise
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Emerald Waters &amp; Old Hanoi Strolls
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Private Cruise</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Chef-Led Dining</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Couples</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2: Swiss Alps -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Red Glacier Express panoramic train crossing a high stone viaduct in the Swiss Alps surrounded by snowy pines and towering peaks" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC99fiB_H_ATxlxNNh4cLgHa2Ou6YP59Fn00Xx32U1fQlkgTi311MWOukefDz_CT2EajU-Rjd9rO3K6d-utLv_rDAykfcvU8ExkPpPam_RtdlySBq08Ad2MYTsZIs03Zs2SAawA_7wnVop9yXlloAnB2FieQqy0D1oF3LcB2R0YD-4ONzDgRnTJbwYbGvcmib5mxcO9Rh6VpBajaGCNmMeyNb3zrgNGRlDZCpCHJ0mtECjnNKl35kA07w')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              7N / 8D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>International</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                Swiss Alps &amp; Glacier Express
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Alpine Panoramas &amp; Scenic Rail
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Swiss Rail Pass</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Mountain Stays</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Family Friendly</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3: Rajasthan -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Grand royal Rajput palace courtyards with marble arches overlooking Lake Pichola Udaipur during a serene golden dusk" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCuw7_5-a66TNhP2S31SwmdZQNCMyYAlL7v6xfREEWjiGW4xcZCTPi46ZrFA5dI_h3BdxQikxHXS3324yoDaBblAb8_uybEVtJ3cfUQeIEy8eFxjYWZk0r5clQK6xDJ2nTIiJ62S42DDMqjEqJ4X2AvQNTuU9ahJUPoTm4NKd9IQl_DHd1S55IjoPyTEyD1JqCAJH9rAmj_lnZmsRzHq_H92_u_CqpTUX8kJ6WhgAhHWagoKtytN_cUXQ')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              5N / 6D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>Domestic</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                Royal Rajasthan Palaces
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Udaipur Lakes &amp; Jodhpur Fortresses
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Heritage Havelis</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Private Chauffeur</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Cultural</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4: Japan -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Blooming cherry blossom sakura trees framing an ancient wooden pagoda and stone pathways in historic Kyoto Japan during soft spring daylight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCraiZ08N0qjsP1iamS5ZfbVZxy_sjTCDknvjbhRWV7-h6yB3h9HpzjYwai5x-UWoFV8Tu9vR1Q3X5jNPcyM8QAV5-AuLwDktX7Zrf8LXTN1BjLUT9_ZVW2sAqyvaEiwBEo9av_BoT0J6IEvPfYZB6Yy-SC0OxbvucBHvDcyP3eZ64ZMVABm_hZ3Rty7zp0tr_yRF3Lg0M3-NKh3GPZAyGbMjdNWQwrlp3nzvlA7fYWxwNsvGbxTg0C2A')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              8N / 9D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>International</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                Japan Cherry Blossom &amp; Kyoto
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Ancient Temples &amp; Bullet Train Odyssey
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Bilingual Guide</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Tea Ceremony</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Bucket List</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 5: Andaman -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Pristine white sand beach of Radhanagar in Havelock Andaman Islands bordered by deep turquoise sea and lush green coastal forest under clear sky" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAPG7pT59rPZ3Df0wELfrvU7DRNeCc7_lEDiKbmHGFCPtCdaF5eY4M9G_lrTMa8rdhLAR5lzOjPg_s5iTthZlrl1HTRZXJVh2BLuqGjoPE4TDf2T66vxMzHKqdsw1jFJfl6PpS84UKZpupaDX86iusjPwWUvGZoLZvnjdcGkKiPeUR57StaIkVFz5OqtQuXuH4CYu4rNd31eRqgYN0a8RJolpl0zzUjhFfgiAghWylvChwrzRijYovM7g')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              5N / 6D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>Domestic</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                Andaman Secluded Shores
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Havelock Island &amp; Coral Reef Dives
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Beachfront Villa</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Catamaran Cruise</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Snorkeling</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 6: New Zealand -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(11,35,63,0.06)] hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative h-56 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Breathtaking Milford Sound fjord landscape with towering Mitre Peak reflected in still blue waters, waterfalls plunging down vertical forested rock faces" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDWqi0aQudpmvC4KAk9kVpXR1EUApldCftJZUC5sOj6q3nS1BsXgmcykmSj0Xwz2FH_jjD_muGmRIGeKSIlCYI1ZjK4I0pRwK8rGCbNEWiHXT_UZV8P9jtXMu-biB84OA7HDIoV4KJWUKpV617Lepqcis9bxHdP2VhnVDU2XdwdO0GGW2Na8J-XnqZGYghUKfE69iZFaY-_DR0mZRDkXNNEGPmkWXqRYfZDd8SOFMXcNfVeqBR5BtcztQ')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-3 py-1 rounded-full">
+              9N / 10D
+            </div>
+<div class="absolute top-3 right-3 bg-surface-container-lowest/80 backdrop-blur-sm p-1.5 rounded-full text-secondary">
+<span class="material-symbols-outlined text-base">bookmark</span>
+</div>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-secondary font-label-eyebrow text-label-eyebrow uppercase mb-1">
+<span>International</span>
+<span class="text-outline">Sample Itinerary</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1">
+                New Zealand South Island
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Milford Sound &amp; Queenstown Fjords
+              </p>
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Self-Drive SUV</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Lakeside Lodges</span>
+<span class="bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm px-2.5 py-1 rounded-md">Pure Nature</span>
+</div>
+</div>
+<div class="pt-4 border-t border-surface-container-high flex items-center justify-between">
+<div>
+<span class="block font-label-eyebrow text-label-eyebrow text-outline uppercase">Starting from / person*</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹ —, —</span>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:text-primary flex items-center gap-1 font-semibold" href="#">
+<span>View trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant/70 text-center mt-10">
+        *Demo content. Prices indicative. Real quotes are customized based on seasonal flight fares, group configuration, and private stay availability.
+      </p>
+</div>
+</section>
+<!-- BROWSE BY TRAVEL STYLE -->
+<section class="max-w-7xl w-full mx-auto px-6 sm:px-10 lg:px-12 py-16">
+<div class="mb-10 text-center">
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+        How Do You Like To Travel?
+      </span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+        Browse by Travel Style
+      </h2>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+<!-- 1. Honeymoon -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-on-tertiary-container group-hover:bg-on-tertiary-container group-hover:text-on-primary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">favorite</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Honeymoon</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Intimate villas, sunset cruises &amp; private dining
+        </p>
+</a>
+<!-- 2. Family -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">family_restroom</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Family</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Kid-friendly pacing, connecting suites &amp; veg options
+        </p>
+</a>
+<!-- 3. Adventure -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">explore</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Adventure</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Trekking, safari wildlife tracking &amp; aerial views
+        </p>
+</a>
+<!-- 4. Luxury -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-on-tertiary-container group-hover:bg-on-tertiary-container group-hover:text-on-primary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">diamond</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Luxury</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          5-star luxury collection, butler service &amp; private transfers
+        </p>
+</a>
+<!-- 5. Culture -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">temple_buddhist</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Culture</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Historic monuments, culinary walks &amp; artisan encounters
+        </p>
+</a>
+<!-- 6. Groups -->
+<a class="bg-surface-container-lowest rounded-2xl p-6 text-center shadow-sm hover:shadow-md hover:-translate-y-1 transition-all group flex flex-col items-center" href="#">
+<div class="w-14 h-14 rounded-full bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-on-secondary transition-colors mb-4">
+<span class="material-symbols-outlined text-2xl">celebration</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Groups</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Milestone birthdays, reunions &amp; tailored corporate retreats
+        </p>
+</a>
+</div>
+</section>
+<!-- DARK NAVY "WHY JETO" SECTION -->
+<section class="w-full bg-primary-container text-on-primary py-24 px-6 sm:px-10 lg:px-20 my-12">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<!-- Left Column: Narrative & Pillars -->
+<div>
+<span class="font-label-eyebrow text-label-eyebrow text-secondary-container tracking-[0.2em] block mb-3 uppercase">
+          The Jeto Difference
+        </span>
+<h2 class="font-headline-lg text-headline-lg lg:text-[46px] lg:leading-[1.15] text-on-primary mb-10">
+          Travel planned by people,
+          <span class="italic text-on-tertiary-container font-normal">not algorithms</span>.
+        </h2>
+<div class="space-y-8">
+<!-- Pillar 1 -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-xl">palette</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-surface-bright mb-1">Truly Custom</h4>
+<p class="font-body-md text-body-md text-surface-container-low/85">
+                Zero cookie-cutter templates. Every itinerary is built around your preferred wake-up times, food habits, and travel style.
+              </p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-xl">visibility</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-surface-bright mb-1">Clear Inclusions</h4>
+<p class="font-body-md text-body-md text-surface-container-low/85">
+                No hidden surprise fees or forced commercial shopping stops. Every voucher clearly states what is included.
+              </p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-xl">person_pin</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-surface-bright mb-1">One Point of Contact</h4>
+<p class="font-body-md text-body-md text-surface-container-low/85">
+                Talk to the same seasoned travel designer from the initial moodboard till you unpack your bags back home.
+              </p>
+</div>
+</div>
+<!-- Pillar 4 -->
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-full bg-primary flex-shrink-0 flex items-center justify-center text-secondary-container">
+<span class="material-symbols-outlined text-xl">support_agent</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-surface-bright mb-1">24/7 On-Trip Support</h4>
+<p class="font-body-md text-body-md text-surface-container-low/85">
+                Real-time WhatsApp support team ready to assist with flight updates, driver re-routing, or dining reservations.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Layered Collage -->
+<div class="relative flex justify-center items-center py-6">
+<div class="relative w-full max-w-md">
+<!-- Photo 1: Couple cliffside -->
+<div class="w-4/5 h-80 rounded-2xl overflow-hidden shadow-2xl relative">
+<div class="bg-cover bg-center w-full h-full" data-alt="Romantic Indian couple enjoying a sunset viewpoint on a private terrace overlooking scenic ocean cliffs and lush hills, warm natural lighting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBIWHXyNQiwF3UkpzCIyIROqtiDSs6Qj-vm_EulCw-6bfPcth4jw93oMvP0E8FwpmE5Yev7Mb99632oay8HetG3U-KmMZ-BqwB_VTWg242lhw5BaU837gB91x5JneUBu0X2rxP4sUu2m0Oa6NmWBQCQ9AIxfWitkuqhrBhQCgOdAKY0z3sVN3hC0WWSGptbKRI8ITLVZZX-BPYKrg3FAzo-wqi9edqI8KlFnzDGvqpRqnimdyIv0MaPyA')"></div>
+</div>
+<!-- Photo 2: Family in tea garden (Overlapping) -->
+<div class="w-3/4 h-72 rounded-2xl overflow-hidden shadow-2xl -mt-28 ml-auto relative">
+<div class="bg-cover bg-center w-full h-full" data-alt="Happy multi-generational Indian family walking hand in hand through rolling misty green tea estates in Munnar Kerala, joyful expressions, warm ambient sunlight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDvEi9SoVyQ9ErgdAQLIa7zZoNDlO_4KdAgLrnbL530rcOYlqmxpRRkTIEvXHgG0N1pyKB1pE85PU4CZLZiFn6OHDBnz2lFxroK8I5qROiTK_BakhRUUkOHI0UbTKinL_C_1RnSYFVmP9a7QNJGOjGv9A-RrC9-1n4dQJbTbvUMOnS_NmcS9jHrXCgyfulHxH6_7Jykp06dpUIBiEOdTCrtVWB5Xow7DYGHK9udRQjZt_RL8klw-O7_cA')"></div>
+</div>
+<!-- Tilted coral stamp badge -->
+<div class="absolute top-1/2 left-4 transform -translate-y-1/2 -rotate-6 bg-on-tertiary-container text-on-primary p-5 rounded-2xl shadow-2xl font-headline-sm text-headline-sm text-center">
+<span class="material-symbols-outlined text-2xl block mb-1">hotel_class</span>
+<span class="block text-surface-bright font-bold">Your trip,</span>
+<span class="block text-surface-bright font-normal italic">your way.</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- HOW IT WORKS -->
+<section class="max-w-7xl w-full mx-auto px-6 sm:px-10 lg:px-12 py-20">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+        Seamless Planning Process
+      </span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+        From Idea to Boarding Pass in Four Steps
+      </h2>
+</div>
+<!-- 4 Numbered Steps -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+<!-- Step 01 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm relative flex flex-col justify-between">
+<div>
+<span class="font-headline-lg text-headline-lg text-secondary-container block mb-3 font-bold">01</span>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Tell us your plan</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Share your dream destinations, dates, and family preferences in a quick 2-minute conversation or WhatsApp chat.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm">
+<span>Initial Discovery</span>
+</div>
+</div>
+<!-- Step 02 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm relative flex flex-col justify-between">
+<div>
+<span class="font-headline-lg text-headline-lg text-secondary-container block mb-3 font-bold">02</span>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Get a proposal</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Receive a comprehensive day-by-day interactive itinerary complete with hotel choices and transparent estimates.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm">
+<span>Interactive Itinerary</span>
+</div>
+</div>
+<!-- Step 03 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm relative flex flex-col justify-between">
+<div>
+<span class="font-headline-lg text-headline-lg text-secondary-container block mb-3 font-bold">03</span>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Refine together</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Tweak boutique stays, swap day activities, and fine-tune pacing until the entire plan is 100% right for you.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm">
+<span>Unlimited Tweaks</span>
+</div>
+</div>
+<!-- Step 04 -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm relative flex flex-col justify-between">
+<div>
+<span class="font-headline-lg text-headline-lg text-secondary-container block mb-3 font-bold">04</span>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2">Travel with support</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Relax with all confirmed vouchers, dedicated drivers, and our 24/7 WhatsApp concierge on call throughout.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm">
+<span>Complete Peace of Mind</span>
+</div>
+</div>
+</div>
+</section>
+<!-- TRAVEL INSPIRATION (GUIDES) -->
+<section class="max-w-7xl w-full mx-auto px-6 sm:px-10 lg:px-12 py-16">
+<div class="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+<div>
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+          Editorial Dispatches
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+          Stories &amp; Practical Guides
+        </h2>
+</div>
+<a class="text-secondary font-label-md text-label-md hover:underline flex items-center gap-1 font-semibold" href="#">
+<span>View all travel guides</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Editorial Layout: Left Feature + Right 2 Stacked -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Feature Card (Left, 7 cols) -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col">
+<div class="relative h-80 w-full overflow-hidden">
+<div class="bg-cover bg-center w-full h-full" data-alt="Elderly Indian parents and their adult children smiling together enjoying a scenic cogwheel train ride in the Swiss Interlaken region with green valleys outside" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBDm2VhjcIR_iGeS7VyZ4OiZakZiTkU-fHJIhP0shjQ_N3QwTS0r_K9s1u9yCkmGnUjm3T2AN1u01NGlLP2pRlX2582by6m9IUuaAx4gIOTU_-6P8gSlXpiIvOAZND-mAxaiDRd28a9yTIMDDxsBTHAhIVHBRwqA1WNSRdd4xreR5bUQGpLVzekQdRVt58SpvWXgCKtockLonl_rBSlYxWwDi2QYKFWaT1ZUkCeYgsCqT4MejiQLSKZKw')"></div>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-eyebrow text-label-eyebrow uppercase">
+              Family Travel Guide
+            </span>
+</div>
+</div>
+<div class="p-8 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3 leading-snug">
+              Traveling to Europe with Indian Parents: Complete Packing, Food &amp; Transit Guide
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              From securing apartment stays with kitchenettes to arranging wheelchair assistance and finding comforting dal-rice across Swiss mountain towns without losing the magic of the Alps.
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-surface-container-high flex items-center justify-between text-outline font-body-sm text-body-sm">
+<span>8 min read • By Devina Roy</span>
+<span class="text-secondary font-semibold flex items-center gap-1">
+              Read Guide <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Right 2 Stacked Cards (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<!-- Card 2: Maldives Honeymoon -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row lg:flex-col flex-1">
+<div class="h-48 sm:w-1/2 lg:w-full overflow-hidden relative">
+<div class="bg-cover bg-center w-full h-full" data-alt="Ultra-luxury private Maldives overwater villa wooden deck at twilight with private plunge pool and steps leading directly into the ocean" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAj2ENh59C6JZMBcNDBn778lnnMY_T04SyHpoxB95HidiNDSOviN8l9u3Z7aj7_KGE5phFzq7iKuIcyY_B_CrTitQNOKBScOyssE6wGe4sPthQVEAj9WxWbj0-vL1QAx6P3n-7JouAQaV9czfecbOYRnz2XvaaVCh56CeJlsSBDj8u54hxD9NRPeYv_7ZlXlDnlgKNZDvIPPas0M2oWjKEznR6lNT8DVsE7t6SOwvIY85uOHvlt-lbINw')"></div>
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-eyebrow text-label-eyebrow uppercase">
+                Honeymoon Special
+              </span>
+</div>
+</div>
+<div class="p-6 sm:w-1/2 lg:w-full flex-1 flex flex-col justify-between">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2 leading-snug">
+              The Best Secluded Overwater Villas in Maldives for Uninterrupted Privacy
+            </h4>
+<div class="flex items-center justify-between text-outline font-body-sm text-body-sm pt-4">
+<span>5 min read</span>
+<span class="text-secondary font-semibold flex items-center gap-1">
+                Read Guide <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Card 3: Offbeat Kashmir -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row lg:flex-col flex-1">
+<div class="h-48 sm:w-1/2 lg:w-full overflow-hidden relative">
+<div class="bg-cover bg-center w-full h-full" data-alt="Breathtaking untouched landscape of Gurez valley Kashmir with meandering turquoise river and traditional wooden village cabins amidst rugged mountains" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDT_LSJtrDMXvWhIIGcEpQK9xXUab1V1AI6tRUyEWLbQkb-PtVKZXpHV0qyfqgqQjh-8u9n4KAWlOZ5ZDjK8ztLgNCUw3F6bdV5DxoHlZ6oFllpp9JuFBAy9cvqzASeI8J1HcuYXRq82lPJzNt-QgANsKjCu84f3nFiuXu9Syk4GGTNeocc-2Xvj5jM4RM40_RZbbfN7rLUzQT723RxQV2X4jmZmDbWsu0wkk_Q0iY1KEx3tgx0goFs3A')"></div>
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-0.5 rounded-full bg-primary text-on-primary font-label-eyebrow text-label-eyebrow uppercase">
+                Domestic Secrets
+              </span>
+</div>
+</div>
+<div class="p-6 sm:w-1/2 lg:w-full flex-1 flex flex-col justify-between">
+<h4 class="font-headline-sm text-headline-sm text-primary mb-2 leading-snug">
+              Offbeat Kashmir: Experiencing Gurez Valley Beyond the Tourist Circuits
+            </h4>
+<div class="flex items-center justify-between text-outline font-body-sm text-body-sm pt-4">
+<span>6 min read</span>
+<span class="text-secondary font-semibold flex items-center gap-1">
+                Read Guide <span class="material-symbols-outlined text-xs">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- REVIEWS PLACEHOLDER (Candid Guest Reflections) -->
+<section class="max-w-4xl w-full mx-auto px-6 my-12">
+<div class="rounded-2xl p-10 sm:p-14 text-center bg-surface-container-low shadow-sm">
+<div class="w-12 h-12 mx-auto rounded-full bg-surface-container flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-2xl">format_quote</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">
+        Verified traveller stories will appear here
+      </h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg mx-auto">
+        We collect candid reflections and photo journals directly from guests once their bespoke journey concludes. No fabricated five-star ratings or anonymous quotes.
+      </p>
+<div class="mt-6 inline-flex items-center gap-2 text-secondary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-sm">verified</span>
+<span>Transparent post-trip community dispatches launching soon</span>
+</div>
+</div>
+</section>
+<!-- FAQ (CLEAN ACCORDION) -->
+<section class="max-w-4xl w-full mx-auto px-6 sm:px-10 py-16">
+<div class="text-center mb-12">
+<span class="font-label-eyebrow text-label-eyebrow text-secondary uppercase tracking-[0.2em] block mb-2">
+        Common Questions
+      </span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+        Frequently Asked Questions
+      </h2>
+</div>
+<div class="space-y-4">
+<!-- Item 1 (OPEN) -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm">
+<div class="flex items-center justify-between cursor-pointer">
+<h4 class="font-headline-sm text-headline-sm text-primary pr-4">
+            Can you cater to specific Indian dietary requirements like pure vegetarian or Jain food?
+          </h4>
+<span class="material-symbols-outlined text-secondary flex-shrink-0">keyboard_arrow_up</span>
+</div>
+<div class="mt-4 pt-4 border-t border-surface-container-high">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Absolutely. When crafting your itinerary, we select hotels known for generous breakfast varieties, pre-scout Indian dining partners, and provide your private chauffeur with vetted restaurant recommendations along every transit route. We also pre-coordinate Jain preparation rules with private luxury resorts.
+          </p>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm">
+<div class="flex items-center justify-between cursor-pointer">
+<h4 class="font-headline-sm text-headline-sm text-primary pr-4">
+            How does Jeto Vacations differ from standard group tour packages?
+          </h4>
+<span class="material-symbols-outlined text-outline flex-shrink-0">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm">
+<div class="flex items-center justify-between cursor-pointer">
+<h4 class="font-headline-sm text-headline-sm text-primary pr-4">
+            Are flights and visas included in the holiday proposals?
+          </h4>
+<span class="material-symbols-outlined text-outline flex-shrink-0">keyboard_arrow_down</span>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 shadow-sm">
+<div class="flex items-center justify-between cursor-pointer">
+<h4 class="font-headline-sm text-headline-sm text-primary pr-4">
+            What happens if we need to reschedule our trip due to an emergency?
+          </h4>
+<span class="material-symbols-outlined text-outline flex-shrink-0">keyboard_arrow_down</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CLOSING CTA BAND -->
+<section class="max-w-6xl w-full mx-auto px-6 my-16">
+<div class="rounded-3xl p-12 sm:p-16 text-on-primary text-center shadow-2xl relative overflow-hidden bg-gradient-to-r from-secondary via-primary-container to-primary">
+<div class="relative z-10 max-w-2xl mx-auto">
+<span class="font-label-eyebrow text-label-eyebrow text-secondary-container tracking-[0.2em] block mb-3 uppercase">
+          ✦ Your Dedicated Travel Partner
+        </span>
+<h2 class="font-display-lg text-display-lg text-on-primary mb-4">
+          Ready when you are.
+        </h2>
+<p class="font-body-lg text-body-lg text-surface-container-low/90 mb-8 max-w-xl mx-auto">
+          No automated chatbots or generic packages. Talk to a real travel designer who cares about getting every single detail right for your family.
+        </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary font-label-md text-label-md shadow-lg transition-transform hover:scale-105" href="#">
+<span>Plan My Trip</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary border border-surface-container-lowest/30 font-label-md text-label-md backdrop-blur-sm transition-all" href="#">
+<span class="material-symbols-outlined text-sm">chat</span>
+<span>Chat on WhatsApp</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div></main><a class="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#25D366] text-white font-label-md text-label-md shadow-[0_8px_30px_rgba(11,35,63,0.18)] hover:scale-105 transition-transform" data-path="contact" href="#"><span class="material-symbols-outlined text-xl">chat</span><span class="font-medium">Chat with Concierge</span></a><footer class="w-full bg-primary text-on-surface-variant pt-16 pb-12 px-12 border-t border-outline/20"><div class="max-w-7xl mx-auto"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-16"><div class="lg:col-span-2 pr-6"><div class="flex items-center gap-3 mb-4"><img alt="Jeto Vacations Brandmark" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UEuYTJe5iDSTJpdEXLc5rCOvdgapfXOZ-HkXSKiUWIkNInAhVS7Bm36gOvJTMwimZKWM0c-n7SECev81oks6Hx6de--THF_yWF6KVLU3euNZhD-6q7iwNMTECiemhbT2lRB3eB1N5eAHSshUwEqLhjJNluYN8GIcCGC5TOKeuFiXSmEPgb4tzle-OsZ1pSJ4-g57d47YK8O9j-Z7WXP24BnLXjbhgDb0o_YcBcb9-gGKtTQoniNEoPPj4j"/><span class="font-headline-sm text-headline-sm tracking-tight text-surface-bright">Jeto Vacations</span></div><p class="font-body-md text-body-md text-outline-variant max-w-sm mb-6">Bespoke holiday planning for curious Indian travelers.</p><div class="bg-primary-container p-4 rounded-xl max-w-md"><span class="font-label-sm text-label-sm text-surface-container block mb-2">Join our private dispatch of seasonal voyages</span><div class="flex gap-2"><input class="flex-1 px-4 py-2.5 rounded-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="Your email address" type="email"/><a class="px-5 py-2.5 rounded-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary font-label-md text-label-md transition-colors" href="#">Subscribe</a></div></div></div><div><h4 class="font-label-eyebrow text-label-eyebrow text-surface-container uppercase tracking-wider mb-4">Destinations</h4><ul class="space-y-3 font-body-sm text-body-sm"><li class="hover:text-surface-bright cursor-pointer">Kashmir</li><li class="hover:text-surface-bright cursor-pointer">Kerala</li><li class="hover:text-surface-bright cursor-pointer">Bali</li><li class="hover:text-surface-bright cursor-pointer">Maldives</li><li class="hover:text-surface-bright cursor-pointer">Dubai</li><li class="hover:text-surface-bright cursor-pointer">Switzerland</li></ul></div><div><h4 class="font-label-eyebrow text-label-eyebrow text-surface-container uppercase tracking-wider mb-4">Holidays</h4><ul class="space-y-3 font-body-sm text-body-sm"><li class="hover:text-surface-bright cursor-pointer">Honeymoons</li><li class="hover:text-surface-bright cursor-pointer">Multi-Gen Family</li><li class="hover:text-surface-bright cursor-pointer">Private Villas</li><li class="hover:text-surface-bright cursor-pointer">Self-Drive</li></ul></div><div><h4 class="font-label-eyebrow text-label-eyebrow text-surface-container uppercase tracking-wider mb-4">Company &amp; Policies</h4><ul class="space-y-3 font-body-sm text-body-sm"><li class="hover:text-surface-bright cursor-pointer">Our Story</li><li class="hover:text-surface-bright cursor-pointer">Expert Planners</li><li class="hover:text-surface-bright cursor-pointer">Booking Terms</li><li class="hover:text-surface-bright cursor-pointer">Privacy Policy</li></ul></div></div><div class="pt-8 border-t border-outline/20 flex flex-col md:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-outline-variant"><p>© 2025 Jeto Vacations Pvt Ltd. All rights reserved. Registered travel curator.</p><div class="flex gap-6"><span class="hover:text-surface-bright cursor-pointer">Terms of Service</span><span class="hover:text-surface-bright cursor-pointer">Privacy Policy</span><span class="hover:text-surface-bright cursor-pointer">Sitemap</span></div></div></div></footer></body></html>
