@@ -194,7 +194,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(travelAgencyJsonLd) }}
       />
       {/* ── 1. CINEMATIC HERO SECTION ── */}
-      <section className="relative w-full overflow-hidden bg-primary pt-36 sm:pt-44 pb-32">
+      <section className="relative w-full overflow-hidden bg-primary pt-32 sm:pt-44 pb-24 sm:pb-32">
         {/* Dynamic Atmospheric Background Video */}
         <HeroBackgroundVideo />
 
@@ -207,21 +207,21 @@ export default function HomePage() {
             </div>
 
             {/* Headline focused on outcomes */}
-            <h1 className="font-serif text-[42px] sm:text-[54px] lg:text-[60px] font-bold leading-[1.1] tracking-[-0.02em] text-on-primary mb-5">
+            <h1 className="font-serif text-[34px] sm:text-[54px] lg:text-[60px] font-bold leading-[1.08] sm:leading-[1.1] tracking-[-0.02em] text-on-primary mb-4 sm:mb-5">
               Custom India &amp; international holidays,{' '}
               <span className="italic text-on-tertiary-container font-normal">planned by real travel experts.</span>
             </h1>
 
             {/* Description */}
-            <p className="font-sans text-base sm:text-lg text-surface-container-low/90 font-light mb-6 max-w-xl leading-relaxed">
+            <p className="font-sans text-[15px] sm:text-lg text-surface-container-low/90 font-light mb-5 sm:mb-6 max-w-xl leading-relaxed">
               Hand-selected boutique stays, private chauffeurs, and dedicated regional destination specialists who understand how Indian families and couples truly travel.
             </p>
 
             {/* Outcome-focused CTAs */}
-            <div className="flex flex-wrap items-center gap-3.5 mb-8">
+            <div className="flex flex-wrap items-center gap-3 sm:gap-3.5 mb-6 sm:mb-8">
               <a
                 href="#curated-holidays"
-                className="px-6 py-3.5 rounded-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary text-xs font-bold tracking-wide transition-all shadow-md flex items-center gap-2 cursor-pointer"
+                className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-full bg-on-tertiary-container hover:bg-tertiary-fixed-dim text-on-primary text-xs font-bold tracking-wide transition-all shadow-md flex items-center gap-2 cursor-pointer"
               >
                 <span>Explore Curated Packages</span>
                 <span className="material-symbols-outlined text-sm">arrow_downward</span>
@@ -231,7 +231,7 @@ export default function HomePage() {
                 label="Talk to a Travel Expert"
                 destination="General Holiday Consultation"
                 packageTitle="Bespoke Travel Inquiry"
-                className="px-6 py-3.5 rounded-full border border-white/40 hover:bg-white/10 text-white text-xs font-bold tracking-wide transition-all flex items-center gap-2"
+                className="px-5 sm:px-6 py-3 sm:py-3.5 rounded-full border border-white/40 hover:bg-white/10 text-white text-xs font-bold tracking-wide transition-all flex items-center gap-2"
               />
             </div>
 
